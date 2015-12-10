@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+  
+  <head>
+  
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css" >
+    <title>FORMULAIRE DE CONTACT</title>
+	
+  </head>
+  
+  <body>
+  
+  <header>
+
+    <nav class="menu">
+      <ul id="menu_horizontal"> 
+        <li><a href="accueil.html" > Accueil </a></li>
+        <li><a href="modules_généraux.html" > Modules généraux </a></li>
+        <li><a href="modules_informatiques.html" > Modules informatiques </a></li>
+        <li><a href="projets.html" > Projets et divers </a></li>
+        <li><a href="auteur.html" > A propos de l'auteur </a></li>
+        <li><a href="form.html" class="current"> Formulaire </a></li>
+      </ul>
+    </nav>
+
+    <h1>FORMULAIRE DE CONTACT</h1>
+
+  </header>
+
+
+  <form action="http://champin.net/enseignement/intro-web/_static/formproc/debug" class="form">
+    
+    <p>
+      <input name="name" placeholder="Nom">
+    </p>
+    <p>
+      <input name="second name" placeholder="Prénom">
+    </p>
+    <p>
+      <input name="email" placeholder="Adresse Mail">
+    </p>
+    <p>
+      Quel est votre âge ?
+      <select name="age">
+        <option value="adolescent"> 10-18 </option>
+        <option value="jeune_actif"> 19-27 </option>
+        <option value="adulte"> 28+ </option>
+      </select>
+    </p>
+    
+    <p>
+      Votre niveau d'études actuel :
+      
+           <label> <input name="niveau" type="radio" value="1ère"> Première </label>
+      
+           <label> <input name="niveau" type="radio" value="T"> Terminale </label>
+        
+           <label> <input name="niveau" type="radio" value="B+1"> Bac+1 </label>
+        
+           <label> <input name="niveau" type="radio" value="B+2"> Bac+2 </label>
+          
+           <label> <input name="niveau" type="radio" value="B+3et+"> Bac+3 ou plus </label>
+    </p>
+    
+    <p>
+      Etes-vous intéréssé par le DUT Informatique :
+        
+        <label><input name="interet" type="radio" value="Pas du tout"> Non </label>
+        <label><input name="interet" type="radio" value="Relatif"> Relativement </label> 
+        <label><input name="interet" type="radio" value="Totalement"> Oui </label>
+    </p>
+
+    <p>
+      Quel(s) langage(s) de programmation seriez-vous enthousiaste d'apprendre ?
+
+      <label><input name="langages" type="checkbox" value="Javascript"> Javascript </label>
+      <label><input name="langages" type="checkbox" value="PHP"> PHP </label>
+      <label><input name="langages" type="checkbox" value="C# et C++"> C et C++ </label>
+      <label><input name="langages" type="checkbox" value="HTML ET CSS"> HTML et CSS </label>
+      <label><input name="langages" type="checkbox" value="ADA"> ADA </label>
+      <label><input name="langages" type="checkbox" value="PYTHON"> PYTHON </label>
+      <label><input name="langages" type="checkbox" value="ORACLE/SQL"> ORACLE/SQL &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+      <label><input name="langages" type="checkbox" value="AUTRE"> AUTRE </label>
+    </p>
+
+    <p>
+        <button>Envoyer le formulaire</button>
+    </p>
+    
+  </form>
+
+
+  </body>
+
+  
+  
+</html>
