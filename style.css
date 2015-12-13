@@ -167,6 +167,10 @@ h1
 	margin-right: 17%;
 }
 
+
+
+
+
 /* TABLEAUX */
 
 .liste
@@ -222,4 +226,43 @@ tr>td:first-child
 	text-align: center;
 	font-size: 95%;
 	font-weight:bold;
+}
+
+
+
+
+
+/*LIENS UTILES*/
+
+#liens li
+{
+	color: rgb(0, 142, 142);
+	font-weight:bold;
+	font-size: 140%;
+}
+
+#liens a
+{
+	color: rgb(36, 68, 92);
+	font-style:italic;
+	font-weight:lighter;
+	font-size:115%;
+}
+
+#liens h2
+{
+	color: rgb(36, 68, 92);
+	font-size: 250%;
+	text-align: center;
+}
+
+
+
+
+
+/* RECTIFICATIONS TABLEAU AUTEUR*/
+
+#bio
+{
+	margin-left: 29%;
 }
