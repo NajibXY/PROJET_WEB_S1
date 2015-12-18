@@ -266,3 +266,45 @@ tr>td:first-child
 {
 	margin-left: 29%;
 }
+
+
+
+
+
+/* FORMULAIRE */
+
+.form p
+{
+	border: 2px solid #008E8E;
+	padding: 0.75%;
+	display:inline-block;
+	border-radius: 20px;
+	margin-top: 0.75%;
+	margin-left: 0.75%;
+	font-weight:bold;
+	color:#24445C;
+}
+
+button
+{
+	background: #FFFFFF;
+    color:#013ADF;
+    font-weight: bold;
+    width:auto;
+    padding:7.5%;
+    float:left;
+    border-radius:7px;
+    font-size: 85%;
+    font-family: Arial;
+    font-weight:bold; 
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label
+{
+	font-weight:normal;
+	color:#000;
+}
