@@ -1,3 +1,21 @@
+/* NOTES :
+
+-BORDERS ET BORDER RADIUS A METTRE EN % 
+-PADDING LEFT ET RIGHT DES CASE ET CASE SPE A METTRE EN % 
+-ADAPTATION MEDIA POSSIBLE
+-REGLAGE DU 100% vs PAS 100%
+
+-FOOTER A AJOUTER
+-PROJETS ET DIVERS A TERMINER
+-AUTEUR A MODIFIER
+-FORMULAIRE A RETOUCHER ?
+
+*/
+
+
+
+
+
 /*BODY HEADER ET POSSIBLEMENT FOOTER*/
 
 body 
@@ -307,4 +325,23 @@ label
 {
 	font-weight:normal;
 	color:#000;
+}
+
+button:hover
+{
+    color: #FFFFFF;
+    background: #2E64FE;
+    box-shadow: 1px 1px 10px black inset, 
+                0 1px 0 rgba( 255, 255, 255, 0.4);
+    cursor: crosshair;
+}
+
+button:active
+{
+    color: #FFFFFF;
+    background: #0101DF;
+    box-shadow: 1px 1px 10px black inset, 
+                0 1px 0 rgba( 255, 255, 255, 0.4);
+    cursor: crosshair;
+    box-shadow: 0px 0px 20px 8px rgba(119, 119, 119, 0.75);
 }
