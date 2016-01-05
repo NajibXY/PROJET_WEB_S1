@@ -230,7 +230,7 @@ h1
 	border-radius: 20px;
 	margin-top: 0.75%;
 	margin-left: 17.2%;
-	background-image: url("assets/fond-tab.jpg");
+	background-image: url("assets/fond-val.jpg");
 }
 
 th
@@ -244,6 +244,7 @@ tr>td:first-child
 	color:#424242;
 	font-size: 112.5%;
 	text-shadow: -1px -1px rgb(204, 204, 255), 1px 1px rgb(204, 204, 255), -2px 0 3px rgb(0, 142, 142);
+	background-image: url("assets/fond-form.png");
 }
 
 /* PADDING LEFT ET RIGHT A METTRE EN POURCENTAGE */
