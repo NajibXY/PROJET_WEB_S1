@@ -230,6 +230,7 @@ h1
 	border-radius: 20px;
 	margin-top: 0.75%;
 	margin-left: 17.2%;
+	background-image: url("assets/fond-tab.jpg");
 }
 
 th
@@ -240,7 +241,7 @@ th
 
 tr>td:first-child
 {
-	color:rgb(0, 142, 142);
+	color:#424242;
 	font-size: 112.5%;
 	text-shadow: -1px -1px rgb(204, 204, 255), 1px 1px rgb(204, 204, 255), -2px 0 3px rgb(0, 142, 142);
 }
@@ -258,8 +259,24 @@ tr>td:first-child
 }
 
 /* PADDING LEFT ET RIGHT A METTRE EN POURCENTAGE */
+
 .casespe
-{
+{	
+	border-radius:1em 1em 0 0;
+	background-image: url("assets/fond-form.png");
+	border:2px solid rgb(58,95,205);
+	text-align: center;
+	padding-top:1.7%;
+	padding-bottom:1.7%;
+	padding-right:30px;
+	padding-left:30px;
+	box-shadow:2px 2px 6px 0.6px; 
+	text-shadow: -1px -1px rgb(204, 204, 255), 1px 1px rgb(204, 204, 255), -2px 0 3px rgb(58,95,205);
+}
+
+.casespe2
+{	
+	background-image: url("assets/fond-form.png");
 	border:2px solid rgb(58,95,205);
 	text-align: center;
 	padding-top:1.7%;
@@ -322,6 +339,16 @@ tr>td:first-child
 
 /* FORMULAIRE */
 
+.form
+{
+	width:48em;
+	margin-left:17em;
+	display: block;
+}
+
+.formspe
+{width: 46.7em;}
+
 .form p
 {
 	border: 2px solid #008E8E;
@@ -332,6 +359,17 @@ tr>td:first-child
 	margin-left: 0.75%;
 	font-weight:bold;
 	color:#24445C;
+	background-image:url("assets/fond-form.png");
+}
+
+#com
+{	
+	width:44.75em;
+	border:none;
+	border-radius: 1em;
+	text-align:center;
+	padding:2%;
+	font-family:comic sans ms;
 }
 
 button
@@ -348,8 +386,15 @@ button
     font-weight:bold; 
     display: block;
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
+    font-size:150%;
+    border: 3px solid #424242; 
+    border-radius: 1em;
+}
+
+#bouton
+{
+	margin-left: 37%;
+	width:25%;
 }
 
 label

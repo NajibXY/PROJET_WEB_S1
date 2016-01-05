@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style.css" >
     <title>FORMULAIRE DE CONTACT</title>
-	
+  
   </head>
   
   <body>
@@ -51,7 +51,7 @@
       </select>
     </p>
     
-    <p>
+    <p class="formspe">
       Votre niveau d'études actuel :
       
            <label> <input name="niveau" type="radio" value="1ère"> Première </label>
@@ -65,10 +65,11 @@
            <label> <input name="niveau" type="radio" value="B+3et+"> Bac+3 ou plus </label>
     </p>
     
-    <p>
-      Etes-vous intéréssé par le DUT Informatique :
+    <p class="formspe">
+      Etes-vous intéressé par le DUT Informatique :
         
-        <label><input name="interet" type="radio" value="Pas du tout"> Non </label>
+        <label><input name="interet" type="radio" value="Pas du tout"> Pas du tout </label>
+        <label><input name="interet" type="radio" value="Peu"> Peu </label>
         <label><input name="interet" type="radio" value="Relatif"> Relativement </label> 
         <label><input name="interet" type="radio" value="Totalement"> Oui </label>
     </p>
@@ -82,11 +83,17 @@
       <label><input name="langages" type="checkbox" value="HTML ET CSS"> HTML et CSS </label>
       <label><input name="langages" type="checkbox" value="ADA"> ADA </label>
       <label><input name="langages" type="checkbox" value="PYTHON"> PYTHON </label>
-      <label><input name="langages" type="checkbox" value="ORACLE/SQL"> ORACLE/SQL &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+      <label><input name="langages" type="checkbox" value="ORACLE/SQL"> ORACLE/SQL </label>
       <label><input name="langages" type="checkbox" value="AUTRE"> AUTRE </label>
     </p>
 
     <p>
+      <label for="com">
+        <textarea placeholder="Un commentaire sur le site ? (Restez poli !)" id="com"></textarea>
+      </label>
+    </p>
+
+    <p ID="bouton">
         <button>Envoyer le formulaire</button>
     </p>
     
