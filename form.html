@@ -34,17 +34,18 @@
   <form action="http://champin.net/enseignement/intro-web/_static/formproc/debug" class="form">
     
     <p>
-      <input name="name" placeholder="Nom">
+      <input name="name" placeholder="*Nom" autofocus required>
     </p>
     <p>
-      <input name="second name" placeholder="Prénom">
+      <input name="second name" placeholder="*Prénom" required>
     </p>
     <p>
-      <input name="email" placeholder="Adresse Mail">
+      <input name="email" placeholder="*Adresse Mail" required>
     </p>
     <p>
-      Quel est votre âge ?
-      <select name="age">
+      *Quel est votre âge
+      <select name="age" required>
+        <option value="">-------</option>
         <option value="adolescent"> 10-18 </option>
         <option value="jeune_actif"> 19-27 </option>
         <option value="adulte"> 28+ </option>
@@ -52,9 +53,9 @@
     </p>
     
     <p class="formspe">
-      Votre niveau d'études actuel :
+      *Votre niveau d'études actuel :
       
-           <label> <input name="niveau" type="radio" value="1ère"> Première </label>
+           <label> <input name="niveau" type="radio" value="1ère" required> Première </label>
       
            <label> <input name="niveau" type="radio" value="T"> Terminale </label>
         
@@ -66,9 +67,9 @@
     </p>
     
     <p class="formspe">
-      Etes-vous intéressé par le DUT Informatique :
+      *Etes-vous intéressé par le DUT Informatique :
         
-        <label><input name="interet" type="radio" value="Pas du tout"> Pas du tout </label>
+        <label><input name="interet" type="radio" value="Pas du tout" required> Pas du tout </label>
         <label><input name="interet" type="radio" value="Peu"> Peu </label>
         <label><input name="interet" type="radio" value="Relatif"> Relativement </label> 
         <label><input name="interet" type="radio" value="Totalement"> Oui </label>
@@ -88,8 +89,8 @@
     </p>
 
     <p>
-      <label for="com">
-        <textarea placeholder="Un commentaire sur le site ? (Restez poli !)" id="com"></textarea>
+      <label>
+        <textarea name="commentaire" maxlength="140" placeholder="Un commentaire sur le site ? (Restez poli !) - 140 caractères max" ID="com"></textarea>
       </label>
     </p>
 
