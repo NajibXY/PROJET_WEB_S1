@@ -248,8 +248,9 @@ h1
 	display:inline-block;
 	border-radius: 20px;
 	margin-top: 0.75%;
-	margin-left: 17.2%;
+	margin-left: 18.5%;
 	background-image: url("assets/fond-val.jpg");
+	width:60%;
 }
 
 th
@@ -322,7 +323,7 @@ tr>td:first-child
 
 #liens li
 {
-	color: rgb(0, 142, 142);
+	color: #DF0101;
 	font-weight:bold;
 	font-size: 140%;
 }
@@ -337,7 +338,7 @@ tr>td:first-child
 
 #liens h2
 {
-	color: rgb(36, 68, 92);
+	color: #F8FBEF;
 	font-size: 250%;
 	text-align: center;
 }
@@ -350,7 +351,8 @@ tr>td:first-child
 
 #bio
 {
-	margin-left: 29%;
+	width:42%;
+	margin-left:29%;
 }
 
 

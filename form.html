@@ -5,6 +5,7 @@
   
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style.css" >
+    <link rel="stylesheet" media="screen and (max-width: 320px)" href="smartphone.css">
     <title>FORMULAIRE DE CONTACT</title>
   
   </head>
@@ -15,12 +16,18 @@
 
     <nav class="menu">
       <ul id="menu_horizontal"> 
-        <li><a href="index.html" > Accueil </a></li>
-        <li><a href="modules_généraux.html" > Modules généraux </a></li>
-        <li><a href="modules_informatiques.html" > Modules informatiques </a></li>
-        <li><a href="projets.html" > Projets et divers </a></li>
-        <li><a href="auteur.html" > A propos de l'auteur </a></li>
-        <li><a href="form.html" class="current"> Formulaire </a></li>
+        <li ID ="fline">
+        <div><a href="index.html" > Accueil </a></div>
+        <div><a href="modules_généraux.html" > Modules généraux </a></div>
+        </li>
+        <li ID ="sline">
+        <div><a href="modules_informatiques.html" > Modules informatiques </a></div>
+        <div><a href="projets.html" > Projets et divers </a></div>
+        </li>
+        <li ID ="tline">
+        <div><a href="auteur.html"> A propos de l'auteur </a></div>
+        <div><a href="form.html" class="current" > Formulaire </a></div>
+        </li>
       </ul>
     </nav>
 
@@ -42,7 +49,7 @@
     <p>
       <input name="email" placeholder="*Adresse Mail" required>
     </p>
-    <p>
+    <p id="age">
       *Quel est votre âge
       <select name="age" required>
         <option value="">-------</option>
@@ -52,7 +59,7 @@
       </select>
     </p>
     
-    <p class="formspe">
+    <p class="formspe" id="lvl">
       *Votre niveau d'études actuel :
       
            <label> <input name="niveau" type="radio" value="1ère" required> Première </label>
@@ -66,7 +73,7 @@
            <label> <input name="niveau" type="radio" value="B+3et+"> Bac+3 ou plus </label>
     </p>
     
-    <p class="formspe">
+    <p class="formspe" id="int">
       *Etes-vous intéressé par le DUT Informatique :
         
         <label><input name="interet" type="radio" value="Pas du tout" required> Pas du tout </label>
@@ -75,7 +82,7 @@
         <label><input name="interet" type="radio" value="Totalement"> Oui </label>
     </p>
 
-    <p>
+    <p id="prog">
       Quel(s) langage(s) de programmation seriez-vous enthousiaste d'apprendre ?
       <span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span> 
       <label><input name="langages" type="checkbox" value="Javascript"> Javascript </label>
@@ -88,7 +95,7 @@
       <label><input name="langages" type="checkbox" value="AUTRE"> AUTRE </label>
     </p>
 
-    <p>
+    <p id="comm">
       <label>
         <textarea name="commentaire" maxlength="140" placeholder="Un commentaire sur le site ? (Restez poli !) - 140 caractères max" ID="com"></textarea>
       </label>

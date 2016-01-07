@@ -5,6 +5,7 @@
   
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style.css" >
+    <link rel="stylesheet" media="screen and (max-width: 320px)" href="smartphone.css">
     <title>A PROPOS DE L'AUTEUR</title>
 	
   </head>
@@ -15,12 +16,18 @@
 
     <nav class="menu">
       <ul id="menu_horizontal"> 
-        <li><a href="index.html" > Accueil </a></li>
-        <li><a href="modules_généraux.html" > Modules généraux </a></li>
-        <li><a href="modules_informatiques.html" > Modules informatiques </a></li>
-        <li><a href="projets.html" > Projets et divers </a></li>
-        <li><a href="auteur.html" class="current" > A propos de l'auteur </a></li>
-        <li><a href="form.html" > Formulaire </a></li>
+        <li ID ="fline">
+        <div><a href="index.html" > Accueil </a></div>
+        <div><a href="modules_généraux.html" > Modules généraux </a></div>
+        </li>
+        <li ID ="sline">
+        <div><a href="modules_informatiques.html" > Modules informatiques </a></div>
+        <div><a href="projets.html" > Projets et divers </a></div>
+        </li>
+        <li ID ="tline">
+        <div><a href="auteur.html" class="current"> A propos de l'auteur </a></div>
+        <div><a href="form.html" > Formulaire </a></div>
+        </li>
       </ul>
     </nav>
 
@@ -32,7 +39,7 @@
   		
   		<table class="liste" ID="bio">
         <tr>
-          <td class="casespe2" colspan="2"><img src="assets/photo.jpg" alt="Photo de moi"/></td>
+          <td class="casespe2" colspan="2"><img src="assets/photo.jpg" alt="Photo de moi" ID="moi"/></td>
         </tr>
         <tr>
           <th class="casespe2">Nom</th>

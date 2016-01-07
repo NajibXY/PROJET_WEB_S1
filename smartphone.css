@@ -331,9 +331,9 @@ tr>td:first-child
 
 #liens li
 {
-	color: rgb(0, 142, 142);
+	color: #DF0101;
 	font-weight:bold;
-	font-size: 140%;
+	font-size: 130%;
 }
 
 #liens a
@@ -341,14 +341,20 @@ tr>td:first-child
 	color: rgb(36, 68, 92);
 	font-style:italic;
 	font-weight:lighter;
-	font-size:115%;
+	font-size:75%;
 }
 
 #liens h2
 {
-	color: rgb(36, 68, 92);
-	font-size: 250%;
+	color: #CEECF5;
+	font-size: 180%;
 	text-align: center;
+}
+
+#liens
+{
+	margin-left:-3%;
+	padding-top:5%;
 }
 
 
@@ -359,7 +365,13 @@ tr>td:first-child
 
 #bio
 {
-	margin-left: 29%;
+	width:90%;
+	margin:auto;
+}
+
+#moi
+{
+	width:75%
 }
 
 
@@ -370,35 +382,63 @@ tr>td:first-child
 
 .form
 {
-	width:48em;
-	margin-left:17em;
+	width:80%;
+	margin-left:auto;
 	display: block;
 }
 
 .formspe
-{width: 46.7em;}
+{
+	width: 80%;
+}
+
+#int
+{
+	margin-left: -5%;
+}
+
+#lvl
+{
+	margin-left: -6%;
+}
 
 .form p
 {
 	border: 2px solid #008E8E;
-	padding: 0.75%;
+	padding: 3%;
 	display:inline-block;
 	border-radius: 20px;
-	margin-top: 0.75%;
-	margin-left: 0.75%;
+	margin-top:5%;
+	margin-bottom:5%;
 	font-weight:bold;
 	color:#24445C;
 	background-image:url("assets/fond-form.png");
 }
 
+#age
+{
+	margin-left:-10%;
+}
+
+#prog
+{
+	margin-left: -20%;
+	margin-right: 5%;
+}
+
+#comm
+{
+	margin-left: -7%;
+}
 #com
 {	
-	width:44.75em;
+	width:100%;
 	border:none;
 	border-radius: 1em;
 	text-align:center;
 	padding:2%;
 	font-family:comic sans ms;
+	margin-left:-2%;
 }
 
 button
@@ -410,7 +450,7 @@ button
     padding:7.5%;
     float:left;
     border-radius:7px;
-    font-size: 85%;
+    font-size: 50%;
     font-family: Arial;
     font-weight:bold; 
     display: block;
@@ -422,8 +462,8 @@ button
 
 #bouton
 {
-	margin-left: 37%;
-	width:25%;
+	margin:auto;
+	width:64%;
 }
 
 label
