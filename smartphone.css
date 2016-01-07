@@ -1,6 +1,6 @@
-/* ADAPTATION 320x480 */
+/* ADAPTATION 320x480 et 360x640 */
 
-@media screen and (max-width: 320px)
+@media screen and (max-width: 360px)
 {
 
 /*BODY HEADER ET POSSIBLEMENT FOOTER*/
@@ -30,7 +30,7 @@ ul#menu_horizontal div
 	text-align: center;
 	position:fixed;
   	margin-top: -26%;
-  	height:17%;
+  	height:16%;
   	background-image: url("assets/fond2.jpg");
   	opacity:0.95;
   	font-family: trebuchet;
@@ -268,7 +268,7 @@ tr>td:first-child
 	padding-right:3px;
 	padding-left:3px;
 	font-weight:bold;
-	font-size: 50%;
+	font-size: 70%;
 }
 
 /* PADDING LEFT ET RIGHT A METTRE EN POURCENTAGE */
