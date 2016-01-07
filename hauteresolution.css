@@ -1,21 +1,22 @@
-/* ADAPTATION 800x1280 (et+) */
+/* ADAPTATION ECRAN HAUTE RESOLUTION (1920x1080) */
 
-@media all and (max-width: 1000px) and (min-width: 400px)
+@media all and (max-width: 1920px) and (min-width: 1920px)
 {
-
 /*BODY HEADER ET POSSIBLEMENT FOOTER*/
 
 body 
 {
-	background: url("assets/fondsmart.jpg");
+	background: url("assets/fond.jpg");
 	background-repeat:no-repeat;
 	background-size: cover;
-	font-family: Tahoma;	
+	font-family: Tahoma;
 }
+
+
 
 header ul
 {
-	margin-top: 0.5%;
+	margin-top: 1%;
 }
 
 ul#menu_horizontal div
@@ -23,19 +24,21 @@ ul#menu_horizontal div
 	display : inline;
 }
 
+
+
 .menu
 {
 	border: 3px solid rgb(36, 68, 92);
 	border-radius:2em;
 	text-align: center;
 	position:fixed;
-  	margin-top: -26%;
-  	height:17%;
+  	margin-top: -1.15%;
+  	height:7.5%;
   	background-image: url("assets/fond2.jpg");
   	opacity:0.95;
   	font-family: trebuchet;
-  	width:90%;
-  	margin-left:3.5%;
+  	width:70em;
+  	margin-left:20%;
 	font-family: cantarell;
 }
 
@@ -45,10 +48,11 @@ header a
 	text-decoration:none;
 	font-weight: bold;
 	font-family: helvetica;
-	font-size:200%;
+	font-size:100%;
 	background: linear-gradient(#A9BCF5 , #FFFFFF);
 	border:2px solid rgb(36, 68, 92);
 	border-radius: 8px;
+	margin-right:2%;
 	box-shadow: 0 0 5px rgba( 0, 0, 0, 0.5),
                 0 -1px 0 rgba( 255, 255, 255, 0.4);
     color:#181818;
@@ -56,18 +60,17 @@ header a
 
 #fline
 {
-	display:block;
-	margin: 2% 0 3% 0%;
+	display:inline;
 }
+
 #sline
 {
-	display:block;
-	margin: 0 0 3% -5%;
+	display:inline;
 }
+
 #tline
 {
-	display:block;
-	margin: 3% 0 5% -6%;
+	display:inline;
 }
 
 header a:hover
@@ -87,7 +90,7 @@ header a:active
 .current
 {
      color: #E8E8E8 ;
-     font-size:200%;
+     font-size:125%;
      background:  #045FB4;
      box-shadow: 1px 1px 10px black inset, 
                  0 1px 0 rgba( 255, 255, 255, 0.4);
@@ -96,7 +99,7 @@ header a:active
 .current:hover
 {
      color: #FFFFFF;
-     font-size:200%;
+     font-size:125%;
      background: #045FB4;
      box-shadow: 1px 1px 10px black inset, 
                  0 1px 0 rgba( 255, 255, 255, 0.4);
@@ -105,12 +108,11 @@ header a:active
 h1
 {
 	display:block;
-	font-size: 410%;
+	font-size: 350%;
   	color: #CEECF5;
   	padding:4% 0% 1% 0%;
   	text-align:center;
-  	margin:28% 25% 1.2% 8%;
-  	width:85%;	
+  	margin:1.2% 25% 1.2% 25%;
   	border:none;
   	border-radius: 4em;
   	background-image: url("assets/fond-h1.jpg");
@@ -124,14 +126,16 @@ h1
 
 .presentation
 {
-	display:block;
-	font-size:125%;
-	border: 2px solid rgb(36, 68, 92);
-	padding:3%;
+	display:inline-block;
+	font-size:85%;
+	border: 4px solid rgb(36, 68, 92);
+	text-align:left;
+	width:70%;
+	padding:0.75%;
 	margin-top:0.75%;
+	margin-left:30em;
 	border-radius: 2.75em;
-	width:90%;
-	margin-left:1.2%; 
+	width:40em;
 	color:white;
 	background-image: url("assets/fond-pre.jpg"); 
 }
@@ -148,90 +152,73 @@ h1
 
 .batiment
 {
-	width:50%;
-	display: block;
+	vertical-align: top;
+	width:20%;
+	display: inline-block;
 	padding:0.75%;
 	text-align: center;
-	border: 2px solid rgb(36, 68, 92);
+	border: 4px solid rgb(36, 68, 92);
 	border-radius: 2em;
 	padding: 1% 2.5% 1% 1%;
 	margin: 0.75% 0 0 0.75%;
 	background-image: url("assets/fond-pre.jpg"); 
 	color:white;
-	margin-left: 20%;
-}
-
-#img
-{
-	display:block;
-	margin-top: 2%;
-	width:99%;
-	margin-left: 2%;
 }
 
 .extraits>h2
 {	
-	font-size:200%;
+	font-size:125%;
 	font-weight:lighter;
 	display:block;
-	margin:7% 0% 0% 4%;
-	width:90%;
+	margin:2.5% 0% 0% 20%;
+	width:60%;
 	text-align: center;
 	color:white;
 }
 
 .valeurs h2
 {
-	font-size: 200%;
-	
 	color: rgb(36, 68, 92);	
 }
 
 .valeurs h3
 {
 	color: rgb(0, 142, 142);
-	font-size: 150%;
 }
 
 .valeurs
 {
-	text-align: center;
-	display:block;
-	width:90%;
-	margin:3% 0% 10% 2%;
+	display:inline-block;
+	width:35%;
+	float: left;
+	margin-left:3%;
 	background-image: url("assets/fond-val.jpg");
-	border: 2px solid rgb(36, 68, 92);
+	border: 4px solid rgb(36, 68, 92);
 	border-radius: 2em;
+	margin: 2% 2% 0% 13%;
 	padding: 0% 2% 0% 2%;
 }
 
 .infos
 {
-	display:block;
-	width:90%;
+	display:inline-block;
+	width:30%;
 	background-image: url("assets/fond-val.jpg");
-	border: 2px solid rgb(36, 68, 92);
+	border: 4px solid rgb(36, 68, 92);
 	border-radius: 3em;
 	padding:0% 1% 1% 2%;
-	margin:20% 0% 0% 2%;
-	text-align: center;
+	margin: 2% 0% 2% -1%;
 }
 
 .infos h2
 {
 	color: rgb(58,95,205);
-	font-size: 200%;
 }
 
 .logo
 {
-	display:block;
-	margin: 2% 0% 2% 2%;
-}
-
-#logoiut
-{
-	width:96%;
+	display:inline-block;
+	margin: -0.4% 0% 2% 2%;
 }
 
 
@@ -242,26 +229,26 @@ h1
 
 .liste
 {
-	border: 2px solid rgb(36, 68, 92);
+	border: 4px solid rgb(36, 68, 92);
 	padding:0.75%;
-	display:block;
-	border-radius: 10px;
-	width:90%;
-	margin-top: 5%;
-	margin-left: 3.5%;
+	display:inline-block;
+	border-radius: 20px;
+	margin-top: 0.75%;
+	margin-left: 29%;
 	background-image: url("assets/fond-val.jpg");
+	width:40%;
 }
 
 th
 {
 	color:rgb(36, 68, 92);
-	font-size: 290%;
+	font-size: 185%;
 }
 
 tr>td:first-child
 {
 	color:#424242;
-	font-size: 160%;
+	font-size: 112.5%;
 	text-shadow: -1px -1px rgb(204, 204, 255), 1px 1px rgb(204, 204, 255), -2px 0 3px rgb(0, 142, 142);
 	background-image: url("assets/fond-form.png");
 }
@@ -273,24 +260,23 @@ tr>td:first-child
 	text-align: center;
 	padding-top:1.7%;
 	padding-bottom:1.7%;
-	padding-right:3px;
-	padding-left:3px;
+	padding-right:30px;
+	padding-left:30px;
 	font-weight:bold;
-	font-size: 150%;
 }
 
 /* PADDING LEFT ET RIGHT A METTRE EN POURCENTAGE */
 
 .casespe
 {	
-	border-radius:0.5em 0.5em 0 0;
+	border-radius:1em 1em 0 0;
 	background-image: url("assets/fond-form.png");
 	border:2px solid rgb(58,95,205);
 	text-align: center;
 	padding-top:1.7%;
 	padding-bottom:1.7%;
-	padding-right:0%;
-	padding-left:0%;
+	padding-right:30px;
+	padding-left:30px;
 	box-shadow:2px 2px 6px 0.6px; 
 	text-shadow: -1px -1px rgb(204, 204, 255), 1px 1px rgb(204, 204, 255), -2px 0 3px rgb(58,95,205);
 }
@@ -311,9 +297,8 @@ tr>td:first-child
 .citation
 {
 	text-align: center;
-	font-size: 120%;
+	font-size: 95%;
 	font-weight:bold;
-	color:white;
 }
 
 
@@ -326,7 +311,7 @@ tr>td:first-child
 {
 	color: #DF0101;
 	font-weight:bold;
-	font-size: 130%;
+	font-size: 140%;
 }
 
 #liens a
@@ -334,20 +319,14 @@ tr>td:first-child
 	color: rgb(36, 68, 92);
 	font-style:italic;
 	font-weight:lighter;
-	font-size:75%;
+	font-size:115%;
 }
 
 #liens h2
 {
-	color: #CEECF5;
-	font-size: 180%;
+	color: #F8FBEF;
+	font-size: 250%;
 	text-align: center;
-}
-
-#liens
-{
-	margin-left:-3%;
-	padding-top:5%;
 }
 
 
@@ -358,15 +337,8 @@ tr>td:first-child
 
 #bio
 {
-	width:90%;
-	margin:auto;
-	padding-left: 0.8%;
-}
-
-#moi
-{
-	
-	width:50%;
+	width:30%;
+	margin-left:35%;
 }
 
 
@@ -377,51 +349,36 @@ tr>td:first-child
 
 .form
 {
-	width:42.3%;
+	width:48em;
+	margin-left:36em;
 	display: block;
 }
 
 .formspe
-{
-	width: 80%;
-}
-
-#prenom
-{
-	text-align: center;
-}
+{width: 46.7em;}
 
 .form p
 {
 	border: 2px solid #008E8E;
-	padding: 3%;
+	padding: 0.75%;
 	display:inline-block;
 	border-radius: 20px;
-	margin-top:5%;
-	margin-left: 10%;
-	margin-bottom:5%;
+	margin-top: 0.75%;
+	margin-left: 0.75%;
 	font-weight:bold;
 	color:#24445C;
 	background-image:url("assets/fond-form.png");
-	text-align: center;
-}
-
-#comm
-{
-	margin-left: -60%;
 }
 
 #com
 {	
+	width:40em;
 	border:none;
 	border-radius: 1em;
 	text-align:center;
 	padding:2%;
 	font-family:comic sans ms;
-	margin-left: -2%;
 }
-
-
 
 button
 {
@@ -431,20 +388,21 @@ button
     width:auto;
     padding:7.5%;
     float:left;
+    border-radius:7px;
+    font-size: 85%;
     font-family: Arial;
     font-weight:bold; 
     display: block;
     position: relative;
-    font-size:215%;
+    font-size:150%;
     border: 3px solid #424242; 
     border-radius: 1em;
 }
 
 #bouton
 {
-	margin:auto;
-	width:64%;
-	margin-left: 4%;
+	margin-left: 37%;
+	width:25%;
 }
 
 label
