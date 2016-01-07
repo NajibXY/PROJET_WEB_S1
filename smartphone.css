@@ -17,16 +17,16 @@
 
 
 /*BODY HEADER ET POSSIBLEMENT FOOTER*/
+@media screen and (max-width: 320px)
+{
 
 body 
 {
-	background: url("assets/fond.jpg");
+	background: url("assets/fondsmart.jpg");
 	background-repeat:no-repeat;
 	background-size: cover;
 	font-family: Tahoma;	
 }
-
-
 
 header ul
 {
@@ -38,22 +38,21 @@ ul#menu_horizontal div
 	display : inline;
 }
 
-
-
 .menu
 {
 	border: 3px solid rgb(36, 68, 92);
 	border-radius:2em;
 	text-align: center;
 	position:fixed;
-  	margin-top: -1.15%;
-  	height:7.5%;
+  	margin-top: -26%;
+  	height:17%;
   	background-image: url("assets/fond2.jpg");
   	opacity:0.95;
   	font-family: trebuchet;
-  	width:70em;
-  	margin-left:6.2em;
+  	width:90%;
+  	margin-left:1.3%;
 	font-family: cantarell;
+	font-size:80%;
 }
 
 header a
@@ -66,7 +65,6 @@ header a
 	background: linear-gradient(#A9BCF5 , #FFFFFF);
 	border:2px solid rgb(36, 68, 92);
 	border-radius: 8px;
-	margin-right:2%;
 	box-shadow: 0 0 5px rgba( 0, 0, 0, 0.5),
                 0 -1px 0 rgba( 255, 255, 255, 0.4);
     color:#181818;
@@ -74,17 +72,18 @@ header a
 
 #fline
 {
-	display:inline;
+	display:block;
+	margin: 4% 0 3% -7%;
 }
-
 #sline
 {
-	display:inline;
+	display:block;
+	margin: 0 0 3% -12%;
 }
-
 #tline
 {
-	display:inline;
+	display:block;
+	margin: 3% 0 5% -6%;
 }
 
 header a:hover
@@ -104,7 +103,7 @@ header a:active
 .current
 {
      color: #E8E8E8 ;
-     font-size:125%;
+     font-size:100%;
      background:  #045FB4;
      box-shadow: 1px 1px 10px black inset, 
                  0 1px 0 rgba( 255, 255, 255, 0.4);
@@ -113,7 +112,7 @@ header a:active
 .current:hover
 {
      color: #FFFFFF;
-     font-size:125%;
+     font-size:100%;
      background: #045FB4;
      box-shadow: 1px 1px 10px black inset, 
                  0 1px 0 rgba( 255, 255, 255, 0.4);
@@ -122,11 +121,12 @@ header a:active
 h1
 {
 	display:block;
-	font-size: 350%;
+	font-size: 137%;
   	color: #CEECF5;
   	padding:4% 0% 1% 0%;
   	text-align:center;
-  	margin:1.2% 25% 1.2% 25%;
+  	margin:28% 25% 1.2% 8%;
+  	width:85%;	
   	border:none;
   	border-radius: 4em;
   	background-image: url("assets/fond-h1.jpg");
@@ -140,16 +140,14 @@ h1
 
 .presentation
 {
-	display:inline-block;
-	font-size:85%;
-	border: 4px solid rgb(36, 68, 92);
-	text-align:left;
-	width:70%;
-	padding:0.75%;
+	display:block;
+	font-size:65%;
+	border: 2px solid rgb(36, 68, 92);
+	padding:3%;
 	margin-top:0.75%;
-	margin-left:16em;
 	border-radius: 2.75em;
-	width:40em;
+	width:90%;
+	margin-left:1.2%; 
 	color:white;
 	background-image: url("assets/fond-pre.jpg"); 
 }
@@ -166,12 +164,11 @@ h1
 
 .batiment
 {
-	vertical-align: top;
-	width:20%;
-	display: inline-block;
+	width:92%;
+	display: block;
 	padding:0.75%;
 	text-align: center;
-	border: 4px solid rgb(36, 68, 92);
+	border: 2px solid rgb(36, 68, 92);
 	border-radius: 2em;
 	padding: 1% 2.5% 1% 1%;
 	margin: 0.75% 0 0 0.75%;
@@ -179,13 +176,19 @@ h1
 	color:white;
 }
 
+#img
+{
+	margin-top: 2%;
+	width:96%;
+}
+
 .extraits>h2
 {	
-	font-size:125%;
+	font-size:80%;
 	font-weight:lighter;
 	display:block;
-	margin:2.5% 0% 0% 20%;
-	width:60%;
+	margin:7% 0% 0% 4%;
+	width:90%;
 	text-align: center;
 	color:white;
 }
@@ -202,26 +205,24 @@ h1
 
 .valeurs
 {
-	display:inline-block;
-	width:35%;
-	float: left;
-	margin-left:3%;
+	display:block;
+	width:90%;
+	margin:3% 0% 10% 2%;
 	background-image: url("assets/fond-val.jpg");
-	border: 4px solid rgb(36, 68, 92);
+	border: 2px solid rgb(36, 68, 92);
 	border-radius: 2em;
-	margin: 2% 2% 0% 13%;
 	padding: 0% 2% 0% 2%;
 }
 
 .infos
 {
-	display:inline-block;
-	width:30%;
+	display:block;
+	width:90%;
 	background-image: url("assets/fond-val.jpg");
-	border: 4px solid rgb(36, 68, 92);
+	border: 2px solid rgb(36, 68, 92);
 	border-radius: 3em;
 	padding:0% 1% 1% 2%;
-	margin: 2% 0% 2% -1%;
+	margin:40% 0% 0% 2%;
 }
 
 .infos h2
@@ -231,8 +232,13 @@ h1
 
 .logo
 {
-	display:inline-block;
-	margin: -0.4% 0% 2% 2%;
+	display:block;
+	margin: 2% 0% 2% 2%;
+}
+
+#logoiut
+{
+	width:96%;
 }
 
 
@@ -243,25 +249,26 @@ h1
 
 .liste
 {
-	border: 4px solid rgb(36, 68, 92);
+	border: 2px solid rgb(36, 68, 92);
 	padding:0.75%;
-	display:inline-block;
-	border-radius: 20px;
-	margin-top: 0.75%;
-	margin-left: 17.2%;
+	display:block;
+	border-radius: 8px;
+	width:90%;
+	margin-top: 5%;
+	margin-left: 3.5%;
 	background-image: url("assets/fond-val.jpg");
 }
 
 th
 {
 	color:rgb(36, 68, 92);
-	font-size: 185%;
+	font-size: 50%;
 }
 
 tr>td:first-child
 {
 	color:#424242;
-	font-size: 112.5%;
+	font-size: 60%;
 	text-shadow: -1px -1px rgb(204, 204, 255), 1px 1px rgb(204, 204, 255), -2px 0 3px rgb(0, 142, 142);
 	background-image: url("assets/fond-form.png");
 }
@@ -273,9 +280,10 @@ tr>td:first-child
 	text-align: center;
 	padding-top:1.7%;
 	padding-bottom:1.7%;
-	padding-right:30px;
-	padding-left:30px;
+	padding-right:3px;
+	padding-left:3px;
 	font-weight:bold;
+	font-size: 50%;
 }
 
 /* PADDING LEFT ET RIGHT A METTRE EN POURCENTAGE */
@@ -288,8 +296,8 @@ tr>td:first-child
 	text-align: center;
 	padding-top:1.7%;
 	padding-bottom:1.7%;
-	padding-right:30px;
-	padding-left:30px;
+	padding-right:0%;
+	padding-left:0%;
 	box-shadow:2px 2px 6px 0.6px; 
 	text-shadow: -1px -1px rgb(204, 204, 255), 1px 1px rgb(204, 204, 255), -2px 0 3px rgb(58,95,205);
 }
@@ -310,8 +318,9 @@ tr>td:first-child
 .citation
 {
 	text-align: center;
-	font-size: 95%;
+	font-size: 60%;
 	font-weight:bold;
+	color:white;
 }
 
 
@@ -442,6 +451,6 @@ button:active
     box-shadow: 0px 0px 20px 8px rgba(119, 119, 119, 0.75);
 }
 
-
+}
 
 
