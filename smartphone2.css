@@ -1,9 +1,9 @@
-/* ADAPTATION 800x1280 (et+) */
+/* ADAPTATION SMARTPHONE 800x1280 (et+) */
 
 @media all and (max-width: 1000px) and (min-width: 400px)
 {
 
-/*BODY HEADER ET POSSIBLEMENT FOOTER*/
+/* BODY ETHEADER */
 
 body 
 {
@@ -266,7 +266,6 @@ tr>td:first-child
 	background-image: url("assets/fond-form.png");
 }
 
-/* PADDING LEFT ET RIGHT A METTRE EN POURCENTAGE */
 .case
 {
 	border:1px solid rgb(58,95,205);
@@ -278,8 +277,6 @@ tr>td:first-child
 	font-weight:bold;
 	font-size: 150%;
 }
-
-/* PADDING LEFT ET RIGHT A METTRE EN POURCENTAGE */
 
 .casespe
 {	

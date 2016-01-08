@@ -1,6 +1,6 @@
 /* ADAPTATION ECRAN ORDINATEURS */
 
-/*BODY HEADER ET POSSIBLEMENT FOOTER*/
+/* BODY ET HEADER */
 
 body 
 {
@@ -251,7 +251,6 @@ tr>td:first-child
 	background-image: url("assets/fond-form.png");
 }
 
-/* PADDING LEFT ET RIGHT A METTRE EN POURCENTAGE */
 .case
 {
 	border:1px solid rgb(58,95,205);
@@ -262,8 +261,6 @@ tr>td:first-child
 	padding-left:30px;
 	font-weight:bold;
 }
-
-/* PADDING LEFT ET RIGHT A METTRE EN POURCENTAGE */
 
 .casespe
 {	
