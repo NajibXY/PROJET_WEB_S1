@@ -1,0 +1,9 @@
+Bonjour,
+
+J'aimerai expliquer mon choix d'avoir choisi de faire 4 pages de styles.
+
+En effet, afin de me fier à l'outil développeur "Vue adaptative" de Firefox je suis arrivé à faire en sorte que le rendu de mon site soit satisfaisant sur toutes les résolutions proposées par l'outil.
+Mais afin d'y arriver, j'ai du donc faire 4 pages de styles. Vous trouverez en commentaire sur les pages de styles les résolutions qu'elles ciblent.
+
+Cordialement,
+EL KHADIR Najib
